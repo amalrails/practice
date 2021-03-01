@@ -7,3 +7,8 @@ def two_sum(arr, sum)
 	end
 	p 'no elements summing up'
 end
+
+
+# Time complexity : O(n). We traverse the list containing n elements exactly twice. Since the hash table reduces the look up time to O(1), the time complexity is O(n).
+
+# Space complexity : O(n). The extra space required depends on the number of items stored in the hash table, which stores exactly n elements.
